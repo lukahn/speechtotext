@@ -2,6 +2,7 @@
 # Version 1 - 08/10/2017
 # Version 2 - 18/10/2017 - Added a move/resume support, and fixed some variables.
 # Version 3 - 06/08/2020 - Fixed the script, and updated it for the latest IBM method calling format
+# Version 4 - 06/08/2020 - Removed unused fields from earlier versions of IBMs implementation
 
 # Todo: Make directories if they don't already exist when the input folder contains directories
 #       Add flags to the command line, so we don't need to modify this file directly
@@ -11,9 +12,6 @@
 #See https://console.bluemix.net/docs/services/speech-to-text/getting-started.html
 
 #Note: This is not the secret. Example format given below.
-username=aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa
-password=aaaaaaaaaaaa
-
 apikey="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
 url="x"
 
